@@ -21,7 +21,7 @@ GoTouchGrass() is a gentle reminder to literally go outside and touch some grass
 3. Point it to train it first, take at least 5 pictures for grass and not grass, then let it predict your next pictures 🌿
 
 *Access to your webcam/camera is necesary for this project!
-**Please wait at least 5 sec before taking pictures, to activate MobileNet.
+**Please wait a few seconds before taking pictures, to activate MobileNet.
 
 ---
 
@@ -51,10 +51,24 @@ GoTouchGrass() is a gentle reminder to literally go outside and touch some grass
 
 ---
 
-## 🚧 What’s Coming Next
+## 🔮 Future Plans
 
-- Multi-category classifier (trees, flowers, etc.)  
-- Improved model training and image preprocessing  
-- Better UI and mobile-first design  
-- Animations, sound, and visual feedback
+- 🧠 **Pretrained Model**  
+  Train the model on a larger dataset to improve accuracy and reduce the need for user input.
+
+- 💾 **Persistent Training Data**  
+  Store user-submitted training data locally (via localStorage or IndexedDB) to retain training across sessions.
+
+- ⚡ **Improved Model**  
+  Explore stronger models like ResNet or fine-tune MobileNet for better performance.
+
+- 🖼️ **Image Upload**  
+  Implement functionality for users to upload images and check if they’re grass or not.
+
+- 🔌 **Offline Support**  
+  Enable offline functionality with cached models and data.
+
+- 🌐 **Crowdsourced Dataset**  
+  Aggregate training data from multiple users to improve the classifier over time.
+
 
