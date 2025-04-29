@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoTouchGrass</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Homepage -->
+    <div class="welcome-page" id="homePage">
+      <div id="homeContent">
+        <h1>🌿 GoTouchGrass()</h1>
+        <h2>Start Classifying Grass from Your Camera!</h2>
+        <p>Take a step into nature! Identify if it's grass or not!</p>
+        <button id="startButton">Let's Go!</button>
+        <div id="loader" class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Main app (hidden initially) -->
+    <div id="mainApp" class="mainApp-hidden">
+      <div id="videoContainer">
+        <video id="video" autoplay playsinline></video>
+      </div>
+
+      <div id="controls">
+        <button id="addGrass" class="action-button">✅ Add Grass</button>
+        <button id="addNotGrass" class="action-button">❌ Add Not Grass</button>
+        <button id="predictButton" class="action-button">🔍 Predict</button>
+      </div>
+
+      <div id="stats">
+        <p>🌿 Grass examples: <span id="grass-count">0</span></p>
+        <p>🏙️ Not Grass examples: <span id="notgrass-count">0</span></p>
+        <h2 id="output">Prediction: ...</h2>
+        <!-- Aggiungi questo sotto l'elemento <h2 id="output"> -->
+        <div id="feedback" class="feedback"></div>
+      </div>
+    </div>
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+
+    <!-- Custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
