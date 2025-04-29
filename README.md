@@ -1,9 +1,12 @@
 # 🌿 **GoTouchGrass()** 🌿
 
-Click here for the [Live Demo 🌱](https://jcgrnm.github.io/GoTouchGrass-/)
+## Click here for the [Live Demo 🌱](https://jcgrnm.github.io/GoTouchGrass-/)
 
 
 GoTouchGrass() is a fun little app that invites you to do one thing: go outside, snap a photo outside and find out if it’s grass or not! 
+
+⚠️ Heads up! (FOR NOW) This app doesn't *really* know what grass looks like — it learns from whatever you teach it.  
+So yes, if you call your face "grass" five times, it'll believe you. Use it as a silly excuse to step outside! 🌿😄
 
 **Why GoTouchGrass()?**  
 As devs, we spend a lot of time indoors.
