@@ -1,8 +1,9 @@
 # 🌿 **GoTouchGrass()** 🌿
 
-GoTouchGrass() is a fun little app that invites you to do one thing: go outside, snap a photo outside and find out if it’s grass or not grass! 🌾
+[Live Demo 🌱](https://jcgrnm.github.io/GoTouchGrass-/)
 
-It’s not about perfect plant ID (for now) — it’s a playful excuse to step away from your screen and reconnect with the outdoors. 📸🌱
+
+GoTouchGrass() is a fun little app that invites you to do one thing: go outside, snap a photo outside and find out if it’s grass or not grass! 🌾
 
 **Why GoTouchGrass()?**  
 As devs, we spend a lot of time indoors.
@@ -12,10 +13,10 @@ GoTouchGrass() is a gentle reminder to literally go outside and touch some grass
 
 ## 📱 How to Use
 
-- Clone the repo and open `index.html` in your browser (Chrome or Firefox recommended).
-- Press **Start** to activate your camera.
-- Point it at a plant and wait for the result: **grass** or **not grass**? 🌿  
-- You'll get instant, friendly feedback after each prediction!
+1. Clone the repo and open `index.html` in your browser (Chrome or Firefox recommended).
+2. Press **Start** to activate your camera.
+3. Point it at a plant and wait for the result: **grass** or **not grass**? 🌿
+4. You'll get instant, friendly feedback after each prediction!
 
 ---
 
@@ -23,7 +24,7 @@ GoTouchGrass() is a gentle reminder to literally go outside and touch some grass
 
 - 🌿 Real-time camera-based plant recognition  
 - 🧠 Built with machine learning (MobileNet + KNN Classifier)  
-- 📸 You can teach the app what *is* or *isn't* grass  
+- 📸 You can teach the app what is or isn't grass  
 - 📱 Works on both desktop and mobile
 
 ---
