@@ -1,6 +1,6 @@
 # 🌿 **GoTouchGrass()** 🌿
 
-[Live Demo 🌱](https://jcgrnm.github.io/GoTouchGrass-/)
+Click here for the [Live Demo 🌱](https://jcgrnm.github.io/GoTouchGrass-/)
 
 
 GoTouchGrass() is a fun little app that invites you to do one thing: go outside, snap a photo outside and find out if it’s grass or not grass! 🌾
